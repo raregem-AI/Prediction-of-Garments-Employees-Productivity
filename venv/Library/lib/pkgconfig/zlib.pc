@@ -1,0 +1,13 @@
+prefix=C:/Data Science Project2/DS project/venv/Library
+exec_prefix=C:/Data Science Project2/DS project/venv/Library
+libdir=C:/Data Science Project2/DS project/venv/Library/lib
+sharedlibdir=C:/Data Science Project2/DS project/venv/Library/lib
+includedir=C:/Data Science Project2/DS project/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
